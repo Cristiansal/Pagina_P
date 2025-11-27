@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio estilo Dvele</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #222;
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      color: white;
+      text-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+      max-width: 900px;
+    }
+
+    .hero p {
+      margin-top: 20px;
+      font-size: 1.4rem;
+      color: #eee;
+      text-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+    }
+
+    /* SECCIÓN PROCESO */
+    .proceso {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .proceso h2 {
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .step {
+      padding: 20px;
+      border-radius: 16px;
+      background: #f5f5f5;
+      box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+    }
+
+    .step img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .step h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    /* BENEFICIOS */
+    .beneficios {
+      background: #fafafa;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .beneficios h2 {
+      font-size: 2.6rem;
+      margin-bottom: 40px;
+    }
+
+    .beneficios-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .beneficio {
+      padding: 20px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+    }
+
+    /* CTA */
+    .cta {
+      padding: 100px 20px;
+      text-align: center;
+      background: #111;
+      color: white;
+    }
+
+    .cta h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .cta button {
+      background: #ffffff;
+      color: black;
+      padding: 14px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta button:hover {
+      background: #ddd;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HERO PRINCIPAL -->
+  <section class="hero">
+    <div>
+      <h1>Casas modernas, saludables y eficientes para un futuro sostenible</h1>
+      <p>Inspirado en la estética premium y minimalista de Dvele</p>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="proceso">
+    <h2>Cómo funciona el proceso</h2>
+    <div class="steps">
+
+      <div class="step">
+        <img src="https://images.unsplash.com/photo-1580584126903-c17d41830450" />
+        <h3>1. Elige tu diseño</h3>
+        <p>Selecciona el modelo que mejor encaje con tu estilo de vida.</p>
+      </div>
+
+      <div class="step">
+        <img src="https://images.unsplash.com/photo-1581091870627-3b5c35c7a01a" />
+        <h3>2. Personaliza los detalles</h3>
+        <p>Materiales, acabados, distribución y más.</p>
+      </div>
+
+      <div class="step">
+        <img src="https://images.unsplash.com/photo-1600585154154-98d1b9f66cd0" />
+        <h3>3. Vive tu nuevo hogar</h3>
+        <p>Disfruta una casa moderna, cómoda y energéticamente eficiente.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="beneficios">
+    <h2>Beneficios de vivir en una casa moderna</h2>
+    <div class="beneficios-grid">
+
+      <div class="beneficio">
+        <h3>Eficiencia energética</h3>
+        <p>Materiales y tecnología que reducen tu consumo hasta un 70%.</p>
+      </div>
+
+      <div class="beneficio">
+        <h3>Ambiente saludable</h3>
+        <p>Control de calidad del aire y espacios diseñados para tu bienestar.</p>
+      </div>
+
+      <div class="beneficio">
+        <h3>Construcción rápida</h3>
+        <p>Fabricación optimizada que acelera la entrega final.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta">
+    <h2>Descubre tu próxima casa</h2>
+    <button>Contáctanos</button>
+  </section>
+
+</body>
+</html>
